@@ -40,7 +40,7 @@ export default function App() {
       <TouchableOpacity style={styles.btn} onPress={handlePress}>
         <Text>
           {isPlaying ? (
-            <FontAwesome name="play" size={24} color="red" />
+            <FontAwesome name="play" size={24} color="black" />
           ) : (
             <FontAwesome name="pause" size={24} color="black" />
           )}
